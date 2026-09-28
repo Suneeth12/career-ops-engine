@@ -1,0 +1,55 @@
+# Secrets & Environment Variables (CRITICAL PRIVACY)
+.env
+.env.*
+*.key
+*.pem
+
+# Candidate Profile & Personal Identifiers (Local only; public repo uses candidate_profile.example.json)
+profile-vault/candidate_profile.json
+profile-vault/portfolio_meta.json
+
+# Private Applications, Resumes, Cover Letters, and Trackers
+profile-vault/applications/
+profile-vault/certificates/
+profile-vault/job_applications.md
+profile-vault/*.pdf
+profile-vault/notes/
+
+# Local Databases, Caches & Scratch Data
+*.db
+*.db-journal
+*.db-wal
+profile-vault/*.db
+profile-vault/cache/
+inbox/
+archive/
+.cache/
+.tectonic/
+/scratch/
+/tmp/
+*.log
+*.tmp
+
+# Local Agents & Internal Notes
+.agents/
+docs/
+profile-vault/projects-vault/
+profile-vault/scripts/
+
+# Nested Projects & External Repositories
+Portfolio/
+
+# Python Cache & Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Code Review Graph (CRG) AST Databases & Cache
+.code-review-graph/
+
+# Operating System Files
+Thumbs.db
+.DS_Store

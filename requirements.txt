@@ -1,0 +1,4 @@
+jsonschema>=4
+pdfminer.six>=20231228
+pytest>=8
+# External binary: tectonic (LaTeX compiler) on PATH, e.g. `scoop install tectonic`

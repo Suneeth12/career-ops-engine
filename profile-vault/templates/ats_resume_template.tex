@@ -1,0 +1,140 @@
+%-------------------------
+% Resume in Latex
+% Author : Firstname Lastname (ATS Single Page Engineering Resume)
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+% Adjust margins to exact 0.5 inch with zero horizontal overflow
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\raggedbottom
+\raggedright
+
+% Section formatting with clean, uniform top/bottom margins
+\titleformat{\section}{
+  \vspace{2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+% @{} removes unwanted cell padding that causes Overfull \hbox warnings
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabularx}{\textwidth}{@{}X r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{\textwidth}{@{}X r@{}}
+      \small#1 & #2 \\
+    \end{tabularx}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Unified list macros for 100% consistent left margin (0pt) and section-to-content spacing across ALL sections
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, label={}]\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-3pt}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=1.0pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%% RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Firstname Lastname} \\ \vspace{2pt}
+    \small City, State / Remote $|$ +1 (555) 000-0000 $|$ firstname.lastname@example.com $|$ \href{https://yourportfolio.dev}{\underline{yourportfolio.dev}} \\ \vspace{1pt}
+    \small \href{https://github.com/yourusername}{\underline{github.com/yourusername}} $|$ \href{https://linkedin.com/in/yourusername}{\underline{linkedin.com/in/yourusername}}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+ \begin{itemize}[leftmargin=0pt, label={}]\vspace{-3pt}
+    \small{\item{
+     {{TAILORED_SUMMARY}}
+    }}
+ \end{itemize}\vspace{-3pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology}{Aug 2022 -- May 2026}
+      {B.Tech in Computer Science and Engineering}{CGPA: 8.75 / 10.0}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Data Structures \& Algorithms, Database Management Systems (DBMS), Operating Systems, Computer Networks, Software Engineering}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0pt, label={}, itemsep=1.5pt, parsep=0pt]\vspace{-3pt}
+    \small{
+      \item \textbf{Languages:} Python, Java, C++, SQL, JavaScript, Bash
+      \item \textbf{Developer Tools \& Cloud:} AWS (EC2, S3), Docker, FastAPI, Flask, Spring Boot, Git, GitHub, Linux, Tectonic
+      \item \textbf{Database \& Systems:} PostgreSQL, MySQL, Redis, MongoDB, Microservices, Distributed Systems
+      \item \textbf{Core Fundamentals:} Data Structures \& Algorithms, Object-Oriented Design, Operating Systems, DBMS, Computer Networks
+      \item \textbf{Profiles:} LeetCode (yourusername) $|$ CodeChef (yourusername)
+    }
+ \end{itemize}\vspace{-3pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+{{PROJECTS_SECTION}}
+    \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS & CERTIFICATIONS-----------
+\section{Publications \& Certifications}
+ \begin{itemize}[leftmargin=0pt, label={}, itemsep=1.5pt, parsep=0pt]\vspace{-3pt}
+    \small{
+      \item \textbf{Peer-Reviewed Paper:} "Performance Benchmarking of Consensus Protocols in Distributed Key-Value Stores" -- \emph{IEEE CLOUD Conference.}
+      \item \textbf{AWS Certified:} Solutions Architect Associate.
+      \item \textbf{Oracle Certified Professional:} Java SE Developer.
+      \item \textbf{MongoDB Certified:} Developer Associate.
+    }
+ \end{itemize}\vspace{-3pt}
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,203 @@
+{
+  "candidate_id": "candidate_001",
+  "full_name": "Firstname Lastname",
+  "email": "firstname.lastname@example.com",
+  "phone": "+1 (555) 000-0000",
+  "location": "City, State / Remote",
+  "linkedin_url": "https://linkedin.com/in/yourusername",
+  "github_url": "https://github.com/yourusername",
+  "portfolio_url": "https://yourportfolio.dev",
+  "leetcode_url": "https://leetcode.com/u/yourusername",
+  "codechef_url": "https://codechef.com/users/yourusername",
+  "target_roles": [
+    "Software Engineer",
+    "Software Development Engineer (SDE)",
+    "Backend Engineer",
+    "Full Stack Developer",
+    "Systems Engineer"
+  ],
+  "summary": "Software Engineer specializing in scalable backend services, distributed systems, and modern cloud infrastructure. Experienced in designing RESTful APIs, relational databases, microservice architectures, and automated testing pipelines.",
+  "education": [
+    {
+      "institution": "National Institute of Technology (NIT)",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "cgpa": "8.75 / 10.0",
+      "graduation_year": 2026,
+      "location": "Bengaluru, India"
+    }
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "SQL",
+    "PostgreSQL",
+    "MySQL",
+    "SQLite",
+    "MongoDB",
+    "Redis",
+    "FastAPI",
+    "Flask",
+    "Spring Boot",
+    "Node.js",
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "RESTful APIs",
+    "Microservices",
+    "Distributed Systems",
+    "Docker",
+    "AWS",
+    "Git",
+    "GitHub",
+    "Linux",
+    "Bash",
+    "CI/CD",
+    "Data Structures & Algorithms",
+    "Object-Oriented Design",
+    "Operating Systems",
+    "DBMS",
+    "Computer Networks",
+    "Model Evaluation",
+    "Machine Learning"
+  ],
+  "skill_categories": {
+    "software_engineering_and_systems": [
+      "Python",
+      "Java",
+      "C++",
+      "FastAPI",
+      "Flask",
+      "Spring Boot",
+      "RESTful APIs",
+      "Microservices",
+      "Distributed Systems",
+      "Data Structures & Algorithms",
+      "Object-Oriented Design",
+      "Operating Systems",
+      "DBMS",
+      "Computer Networks"
+    ],
+    "cloud_and_devops": [
+      "Docker",
+      "AWS",
+      "Git",
+      "GitHub",
+      "Linux",
+      "Bash",
+      "CI/CD"
+    ],
+    "databases_and_storage": [
+      "SQL",
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "MongoDB",
+      "Redis"
+    ],
+    "web_and_frontend": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Node.js"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Distributed Asynchronous Task Queue & Job Scheduler",
+      "category": [
+        "sde",
+        "full_stack_and_systems"
+      ],
+      "description": "Architected an asynchronous task processing engine handling 100,000+ daily jobs with priority queues, dead-letter routing, and retry policies.",
+      "bullets": [
+        "Architected an asynchronous task processing engine handling 100,000+ daily jobs with priority queues, dead-letter routing, and retry policies.",
+        "Implemented persistent task states with PostgreSQL and Redis caching, achieving sub-10ms job dispatch and status polling.",
+        "Packaged microservices into Docker containers with health checks and structured logging, maintaining 99.9% uptime during load tests."
+      ],
+      "tech_stack": [
+        "Python",
+        "Redis",
+        "PostgreSQL",
+        "FastAPI",
+        "Docker"
+      ],
+      "github": "https://github.com/yourusername/distributed-task-queue"
+    },
+    {
+      "name": "High-Throughput E-Commerce Order & Inventory Microservice",
+      "category": [
+        "sde",
+        "full_stack_and_systems"
+      ],
+      "description": "Designed modular order processing and inventory management microservices handling concurrent transactions with optimistic locking.",
+      "bullets": [
+        "Designed modular order processing and inventory management microservices handling concurrent transactions with optimistic locking.",
+        "Constructed optimized database schemas, indexes, and SQL queries in PostgreSQL, eliminating transaction deadlocks under high concurrency.",
+        "Integrated RESTful endpoints with OpenAPI documentation, JWT-based authentication, and automated integration tests."
+      ],
+      "tech_stack": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
+      "github": "https://github.com/yourusername/ecommerce-microservice"
+    },
+    {
+      "name": "Real-Time Collaborative Workspace & Notification Engine",
+      "category": [
+        "sde",
+        "full_stack_and_systems"
+      ],
+      "description": "Built full-duplex real-time synchronization service supporting 5,000+ concurrent WebSocket connections using Redis Pub/Sub.",
+      "bullets": [
+        "Built full-duplex real-time synchronization service supporting 5,000+ concurrent WebSocket connections using Redis Pub/Sub.",
+        "Designed resilient message delivery mechanisms with automated connection recovery and state reconciliation on reconnect.",
+        "Developed interactive frontend interface with React and TypeScript, providing instant document updates and activity notifications."
+      ],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "WebSocket",
+        "Redis",
+        "React"
+      ],
+      "github": "https://github.com/yourusername/collaborative-workspace"
+    },
+    {
+      "name": "Cloud Infrastructure Health Monitor & Alerting Service",
+      "category": [
+        "sde",
+        "full_stack_and_systems"
+      ],
+      "description": "Engineered automated daemon auditing cloud compute instances, storage utilization, and network health across availability zones.",
+      "bullets": [
+        "Engineered automated daemon auditing cloud compute instances, storage utilization, and network health across availability zones.",
+        "Implemented configurable alerting rules dispatching real-time notifications via Webhooks upon SLA breach detection.",
+        "Containerized monitoring agents with Docker and automated deployment pipelines using GitHub Actions and AWS EC2."
+      ],
+      "tech_stack": [
+        "Python",
+        "AWS",
+        "Docker",
+        "Linux",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com/yourusername/cloud-health-monitor"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Performance Benchmarking of Consensus Protocols in Distributed Key-Value Stores",
+      "venue": "IEEE International Conference on Cloud Computing (CLOUD)",
+      "description": "Evaluated throughput and replication latency trade-offs across distributed consensus algorithms under network partition failures."
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Oracle Certified Professional: Java SE Developer",
+    "MongoDB Certified Developer Associate"
+  ]
+}
